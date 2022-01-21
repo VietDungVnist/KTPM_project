@@ -1,0 +1,24 @@
+
+	database: quan_ly_dan_cu
+		- table: 
+		- table: person
+	
+	
+	package: controll
+				- class: userDAO.java
+							+ public int login(String username, String password): trả về trường của table
+							+ public boolean addAccount(string name, CCCD, sdt, userName, pass)
+									nếu username chưa tồn tại -> thêm database và return true
+									nếu tồn tại rồi thì return false
+							+ public boolean addPerson(person s)
+							+ public boolean themNhanKhau(person s, int id_chuho)
+								Thằng chủ hộ thêm 1 người vào hộ khảu
+				- class: managerDAO.java
+							+ public list<person> getRequest()
+								Trả về danh sách những người đã đăng ký tài khoản
+							+ public boolean addAcount(int id)
+							+ public boolean editPerson(person s, int id)
+							+ public int login(String username, String password)
+	package: model
+				- class: person.java
+				

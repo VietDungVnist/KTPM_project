@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f5f8fa;
+}
+
+.barhome:hover {
+	background-color: #ececec;
+}
+
+.barhome {
+	display: inline-block;
+}
+.active {
+	background-color: black;
+	border-bottom: #337ab7 solid 4px;
+	display: inline-block;
+}
+#taskbar{
+	text-align: center;
+	background-color: white;
+	box-shadow: 0px 0px 10px #c7c7c7;
+	height: 50px;
+}
+#taskbar_left{
+	display: inline;
+	font-size: 0px;
+}
+#taskbar_right{
+	display: inline;
+	font-size: 0px;
+}
+
+#space {
+	display: inline-block;
+	width: 400px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.taskbar_text {
+	font-family: "UTM Aptima";
+	font-size: 20px;
+	display: inline-block;
+	color: #323232;
+	padding: 10px 15px;
+}
+#logo {
+	background-image: url(".\logo.jpg");
+}
+#formlogin {
+	display:inline-block;
+	text-align: center;
+	margin: 0px auto;
+	border: 1px solid red;
+}
+
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	min-width:720px;
+	background-color:#f5f8fa;
+	font-style:normal;
+	font-weight:400;
+	font-family:Mulish,sans-serif
+}
+
+button{
+	cursor:pointer;
+}
+
+#taotaikhoan {
+	font-size: 25px;
+	color: #1676b4;
+	margin-bottom: 20px;
+	font-weight: bold;
+	display: inline-block;
+}
+.submit_view_profile {
+	font-size: 17px;
+	display: inline-block;
+	margin: 20px 10px 0px 10px;
+	background-color: #1c83c6;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+.submit_view_profile_white {
+	font-size: 17px;
+	display: inline-block;
+	margin: 20px 10px 0px 10px;
+	background-color: white;
+	color: #1c83c6;
+	border-color: #1c83c6;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+
+.tao_tai_khoan {
+	background-color: white;
+	margin: auto;
+	margin-top: 50px;
+	width: 50%;
+	box-shadow: 0px 0px 10px #c7c7c7;
+	padding: 40px;
+	border-radius: 8px;
+}
+._1{
+			text-align: center;
+			background-color: white;
+			margin: auto;
+			margin-top: 100px;
+			padding: 40px;
+			width: 30%;
+			box-shadow: 0px 0px 10px #c7c7c7;
+			padding: 40px;
+			border-radius: 8px;
+		}
+
+.taotk_field {
+	margin: 0px;
+	border: none;
+	display: block;
+}
+
+form>fieldset>input {
+	padding: 0px;
+	color: #565656;
+	font-size: 17px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #c0c0c0;
+	width: 100%;
+}
+form>fieldset>input:focus {
+	outline: none;
+}
+
+form>fieldset>label {
+	color: #565656;
+	font-family: "UTM Aptima";
+	font-size: 13px;
+	margin-bottom: 3px;
+}
+div>fieldset>input {
+	padding: 0px;
+	color: #565656;
+	font-size: 17px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #c0c0c0;
+	width: 100%;
+}
+div>fieldset>input:focus {
+	outline: none;
+}
+div>fieldset>label {
+	color: #565656;
+	font-family: "UTM Aptima";
+	font-size: 13px;
+	margin-bottom: 3px;
+}
+form>input {
+	font-size: 17px;
+	display: block;
+	margin: auto;
+	background-color: #1c83c6;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+
+
+form>input:hover{
+	cursor: pointer;
+}
+#wallpaper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: -1;
+}
+#info_trang_chu {
+	margin: 0px auto;
+	margin-top: 100px;
+	background-color: white;
+	width: 70%;
+}
+#logo_trang_chu {
+	width: 100px;
+}
+#error_notif {
+	display: block;
+	margin: 0px auto;
+	font-size: 10px;
+	color: red;
+}
+.dropbtn {
+	background-color: inherit;
+	color: #323232;
+	font-size: 16px;
+	border: none;
+	display: inline-block;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+	box-sizing: border-box;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 170px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #323232;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ececec}
+
+.dropdown:hover .dropdown-content {
+	display: block;}
+
+.dropdown:hover .dropbtn {
+	background-color: #ececec;}
+.job_list {
+	background-color: white;
+	width: 50%;
+	margin: 0px auto;
+	margin-top: 100px;
+	padding: 20px;
+	border-radius: 8px;
+}
+.button_dichvu {
+	display: inline;
+	margin: 10px;
+	padding-bottom: 10px;
+}
+#dichvu_title {
+	color: #1676b4;
+	size: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+#thongkesobo {
+	margin: auto;
+	height: 90px;
+	width: 80%;
+	background-color: #3392ce;
+	border-radius: 8px;
+	padding: 20px;
+	text-align: center;
+}
+#sobo_icon {
+	display: inline-block;
+	margin: 10px;
+}
+#tbldancu{
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+	width: 100%;
+	box-shadow: 0px 0px 4px #434343;	
+	border-collapse: collapse;
+	font-size:16px;
+	border-radius: 8px;
+}
+#tbldancu tr th {
+	background-color: #e9feff;
+	height: 30px;
+	border-bottom: 1px solid #b4b4b4;
+}
+#tbldancu tr td:nth-of-type(3), #tbldancu tr td:nth-of-type(4), #tbldancu tr td:nth-of-type(1), #tbldancu tr td:nth-of-type(6) {
+	text-align: center;
+}
+#tbldancu tr th:nth-of-type(2), #tbldancu tr th:nth-of-type(5), #tbldancu tr th:nth-of-type(8) {
+	text-align: left;
+}
+#tbldancu tr td:nth-of-type(9), #tbldancu tr td:nth-of-type(7) {
+	text-align: center;
+}
+#tbldancu tr td {
+	height: 30px;
+	border-bottom: 1px solid #b4b4b4;
+}
